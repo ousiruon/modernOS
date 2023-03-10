@@ -733,8 +733,6 @@ function displaySignIn () {
 }
 window.addEventListener('load' , () =>{
     checkStatus ();
-    // logged ();
-    // displaySignIn ();
     let windowWidth = window.innerWidth;
     window.addEventListener('resize' , (e) => {
         if (windowWidth !== window.innerWidth) {
