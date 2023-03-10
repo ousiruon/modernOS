@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 :root {
-    --primary-font: 'Roboto' , sans-serif;
-    --secondary-font: 'Itim', cursive;
+    --primary-font: 'Lato', sans-serif;
     --textShadow: 2px 2px 3px #1D3557;
     --mainColor : whitesmoke;
     --secondaryColor: #1D3557;
@@ -79,7 +78,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
     background-color: black;
 }
 #root {
@@ -128,7 +127,7 @@ body {
 }
 .sign-interface {
     z-index: 2;
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
     margin: 0 auto;
 }
 .sign-in {
@@ -692,6 +691,7 @@ h3 {
     width: 50%;
     margin: 0.5em;
     padding: 0.5em;
+    border-radius: 0.5em;
 }
 .option-choice label {
     width: 50%;
@@ -707,6 +707,8 @@ h3 {
 .passcase input {
     padding: 0.5em;
     width: 100%;
+    border-radius: 0.3em;
+    border: 0;
 }
 .passcase i {
     position: absolute;
@@ -719,6 +721,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 0 0.3em 0.3em 0;
 }
 .setting {
     position: absolute;
