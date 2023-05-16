@@ -114,10 +114,8 @@ body {
 .background-img {
     position: relative;
     background-size: cover;
-    background-attachment: fixed;
     width: 100%;
     height: 100%;
-    image-rendering: high-quality;
 }
 .background-img.inactive-app {
     filter: blur(0);
